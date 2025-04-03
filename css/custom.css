@@ -1,3 +1,22 @@
+@font-face{
+  font-family: 'Fafo';
+  src: url("../fonts/Fafo\ Sans\ Bold.ttf");
+}
+
+@font-face{
+  font-family: 'Motley';
+  src: url("../fonts/Motley\ Forces.ttf")
+}
+h1, h3, h5 {
+  font-family: "Motley", sans-serif;
+}
+h2, h4, p, a {
+  font-family: "Fafo", sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+}
 /* all children of .hero, center text */
 main {
   z-index: 1;
@@ -5,7 +24,7 @@ main {
 }
 
 .hero {
-  height: 75vh;
+  height: 90vh;
 }
 .hero > h1 {
   font-size: 4em;
@@ -31,8 +50,8 @@ nav {
   gap: 1rem;
 }
 .social-icon {
-  width: 4em;
-  height: 4em;
+  width: 3em;
+  height: 3em;
   /* round corner */
   border-radius: 1em;
   margin: 0.5em;
@@ -47,10 +66,11 @@ nav {
   text-align: center;
   margin-bottom: 4em;
 }
-.not-hero > img {
+.not-hero > img, .info-img {
   width: 100%;
   height: auto;
 }
+
 
 footer {
   margin-top: 0.5em;

@@ -7,8 +7,12 @@
   font-family: 'Motley';
   src: url("../fonts/Motley\ Forces.ttf")
 }
+@font-face{
+  font-family: 'Super-Childish';
+  src: url("../fonts/SuperChildish.ttf")
+}
 h1, h3, h5 {
-  font-family: "Motley", sans-serif;
+  font-family: "Super-Childish", sans-serif;
 }
 h2, h4, p, a {
   font-family: "Fafo", sans-serif;
